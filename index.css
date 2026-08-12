@@ -1,0 +1,49 @@
+box{
+    background-color: #ff7300;
+    width: 200px;
+    height: 200px;
+    color: bisque;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center; /*vertical*/
+    justify-content: center; /*horizontal*/
+
+ }   
+ /**señector universal */
+ *{
+ margin: 0;
+ padding:0;
+ box-sizing: horder-box;
+ }
+ 
+ body{
+ background-color: aqua;
+ padding: 3rem;
+ }
+ 
+ .container{
+  background-color: aquamarine;
+  padding: 2rem;
+  max-width: 70%;
+  margin: 0 auto;
+  border-radius: 20px;
+  }
+
+  /*width: 100% */
+
+  figure ing{
+  max-width: 100%;
+  border-radius: 10px;
+  }
+  
+  .title{
+   margin: 1rem 0;
+   font-style: italic;
+        &:hover{
+            color:blueviolet;
+        } 
+
+        &::after{
+            content:"🍪🍪";
+        }
+}
